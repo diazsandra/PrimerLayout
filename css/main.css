@@ -61,10 +61,7 @@ p {
  	margin: 10px;
  	margin-left: 0px;
  	float: left;
- 	text-align: right;
-	color: grey;
-	font-size: 15px;
-	font-family: sans-serif;
+ 	
 }
 
 .inline {
@@ -75,16 +72,6 @@ p {
 	display: inline-block;
 	clear: left;
 }
-
-.inline .inclear img {
-	width: 100%;
-	height: 100%;
-	border: 0px;
-	position: relative;
-	-webkit-filter: grayscale(70%);
-	filter: grayscale(70%)
-}
-
 
 .inline::before {
 	content: attr (title);
@@ -97,6 +84,75 @@ p {
 	z-index: 1;
 }
 
+.div1 img {
+	width: 100%;
+	height: 100%;
+	position: static;
+	-webkit-filter: grayscale(70%);
+	filter: grayscale (70%);
+}
 
+     /* Coder-detail */
 
+.divcoder {
+	width: 700px;
+	height: auto;
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	position: absolute;
+}
 
+.coder1 {
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: auto;
+ 	padding: auto;
+  	position: relative;
+}
+
+.coder1 img {
+	border-radius: 100%;
+}
+
+.nombre {
+	font-family: Cambri;
+	font-size: 24px;
+}
+
+.barra {
+	height: 22px;
+	background-color: grey;
+	color: white;
+	font-family: Arial;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+}
+
+.html {
+	width: 80%;
+}
+
+.css {
+	width: 60%;
+}
+
+.js {
+	width: 40%;
+}
+
+.div2 {
+ 	width: 200px;
+ 	height: 200px;
+ 	margin: 20px;
+ 	margin-left: 12px;
+ 	float: left;
+ 	
+}
+
+.div2 img {
+	width: 100%;
+	height: 100%;
+	position: static;
+}
