@@ -1,0 +1,102 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.largo {
+	color: black;
+	width: 600px;
+	border: solid black 1px;
+}
+
+.peque {
+	color: black;
+	width: 50px;
+	border: solid black 1px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0px 65px;
+	padding: 0px;
+	position: relative;
+}
+
+li {
+	display: inline;
+	width: 100%;
+	margin: 30px;
+}
+
+.grupal {
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	text-align: center;
+	font-size: 20px; 
+}
+.texto {
+	width: 60%;
+	height: 50%;
+	position: relative;
+	margin: auto;
+	padding: auto;
+}
+
+.hr3 {
+ 	size: 2px;
+ 	color: white;
+ 	width: 15%;
+ 	margin: 0px;
+ 	border: solid 2px;
+}
+
+.div1 {
+ 	width: 200px;
+ 	height: 200px;
+ 	border: 2px solid grey;
+ 	margin: 10px;
+ 	margin-left: 0px;
+ 	float: left;
+ 	text-align: right;
+	color: grey;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.inline {
+ 	display: inline-block;
+}
+
+.inlineclear {
+	display: inline-block;
+	clear: left;
+}
+
+.inline .inclear img {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	position: relative;
+	-webkit-filter: grayscale(70%);
+	filter: grayscale(70%)
+}
+
+
+.inline::before {
+	content: attr (title);
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	padding: 5px;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+
+
+
