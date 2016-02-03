@@ -1,6 +1,13 @@
+body {
+	background-image: url(https://d1v8u1ev1s9e4n.cloudfront.net/548aabb85ccacf792fa54534);
+}
+
 .container {
 	width: 700px;
 	margin: 0 auto;
+	margin-left: 150px;
+	background-color: white;
+	position: absolute;
 }
 
 .largo {
@@ -53,15 +60,17 @@ p {
  	margin: 0px;
  	border: solid 2px;
 }
-
+ /* ¡Checar cómo poner el texto en las imagen! */
 .div1 {
  	width: 200px;
  	height: 200px;
  	border: 2px solid grey;
  	margin: 10px;
- 	margin-left: 0px;
+ 	margin-left: 12px;
+ 	margin-bottom: 10px;
  	float: left;
- 	
+ 	color: grey;
+ 	text-align: center; 	
 }
 
 .inline {
@@ -90,6 +99,12 @@ p {
 	position: static;
 	-webkit-filter: grayscale(70%);
 	filter: grayscale (70%);
+}
+
+.nya::before {
+	position: absolute;
+	bottom: 3px;
+	z-index: 1;
 }
 
      /* Coder-detail */
